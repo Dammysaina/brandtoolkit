@@ -1,0 +1,28 @@
+.brandGrowth {
+    color: #191A1E66;
+    font-size: 30px;
+    /* position: relative;
+    top: -5rem; */
+}
+.simplifyBrand {
+    font-size: 20px;
+}
+.simplifyColor {
+    color: #191A1E66;
+}
+.imageBack {
+    background-color: #000000;
+}
+.imageBack img {
+    margin: 0 3rem;
+    width: 45rem;
+    position: absolute;
+    left: -25rem;
+}
+.fontButton {
+border: none;
+background-color: #000000;
+color: #ffffff;
+padding: 1rem;
+margin-top: 1.5rem ;
+}
