@@ -1,14 +1,18 @@
 .brandGrowth {
     color: #191A1E66;
     font-size: 30px;
-    /* position: relative;
-    top: -5rem; */
+    position: relative;
+    top: -5rem;
 }
 .simplifyBrand {
     font-size: 20px;
 }
 .simplifyColor {
     color: #191A1E66;
+}
+.builtManage {
+    position: relative;
+    top: -1rem;
 }
 .imageBack {
     background-color: #000000;

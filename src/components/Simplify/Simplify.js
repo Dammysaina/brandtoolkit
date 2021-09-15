@@ -17,13 +17,14 @@ const Simplify = () => {
                 
             </ScrollPage>
             <ScrollPage page={0}>
-                <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -150))}>
+                <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -300))}>
                     <p className="brandGrowth">The Brand Growth Company</p> 
                 </Animator>
                 <div className="simplifyBrand">
-                    <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -100))}>We <span className="simplifyColor">Simplify</span> the way brands 
-                    <p>are built and managed.</p>
-                    <button className="fontButton">Talk to us <FontAwesomeIcon icon={faArrowRight}/> </button>
+                    <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -100))}>
+                        <p>We <span className="simplifyColor">Simplify</span> the way brands </p>
+                        <p className="builtManage">are built and managed.</p>
+                        <button className="fontButton">Talk to us <FontAwesomeIcon icon={faArrowRight}/> </button>
                     </Animator>
                     {/* <Animator> </Animator> */}
                 </div>
