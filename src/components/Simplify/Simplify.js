@@ -38,7 +38,8 @@ const Simplify = () => {
             <ScrollContainer>
                 <ScrollPage page ={1}>
                     <Animator animation={FadeUp}>
-                        <img src={`./images/Rectangle.svg`} alt="men laughing" />
+                        <img src={`./images/Rectangle.svg`
+                    } alt="men laughing" />
                     </Animator>
                     <div >
                         <span style={{ fontSize: "3em" }}> 
