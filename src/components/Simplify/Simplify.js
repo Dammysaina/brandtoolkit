@@ -29,7 +29,7 @@ const Simplify = () => {
                     {/* <Animator> </Animator> */}
                 </div>
                 <div>
-                    
+                
                 </div>
             </ScrollPage>
             
